@@ -101,7 +101,7 @@ export default function EmpanadaCard({empanada, addToCart}) {
                     <Typography variant="body3" color="text.secondary">
                         Tamaños: {empanada.sizes.map((e, index) => {
                             return (
-                                <div key={index} style={{display: 'inline'}}> {e} cm </div>
+                                <div key={index} style={{display: 'inline'}}> {e}cm </div>
                             )
                         })}
                     </Typography>
